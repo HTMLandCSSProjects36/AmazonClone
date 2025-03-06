@@ -40,3 +40,53 @@ nav {
 .material-symbols-outlined {
   font-size: 20px;
 }
+.nav-search {
+  display: flex;
+  max-width: 1000px;
+  border-radius: 4px;
+  margin-left: 15px;
+  align-items: center;
+  background: white;
+}
+
+.nav-search-category {
+  display: flex;
+  background-color: #e5e5e5;
+  color: grey;
+  padding: 10px 20px;
+  border-radius: 4px 0px 0px 4px;
+}
+
+.nav-search-input {
+  border: none;
+  outline: none;
+  padding-left: 20px;
+  width: 100%;
+}
+
+.search-icon {
+  padding: 10px;
+  background-color: #ffd64f;
+  border-radius: 0px 4px 4px 0px;
+  color: grey;
+  height: 100%;
+}
+
+.nav-language {
+  display: flex;
+  align-items: center;
+}
+
+.nav-language p {
+  margin-left: 2px;
+}
+.nav-bottom {
+  padding: 8px 20px;
+  background: #232f3e;
+  font-size: 15px;
+  color: white;
+}
+.nav-bottom div {
+  display: flex;
+  
+}
