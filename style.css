@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #dadada;
+  font-family: Outfit;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #131921;
+  padding: 10px 20px;
+  color: white;
+}
+
+.nav-country {
+  display: flex;
+  align-items: end;
+  font-size: 13px;
+  color: #c4c4c4;
+}
+
+.nav-country-name h1 {
+  font-size: 14px;
+  color: white;
+}
+
+.material-symbols-outlined {
+  font-size: 20px;
+}
